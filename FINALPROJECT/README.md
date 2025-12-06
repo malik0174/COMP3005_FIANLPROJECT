@@ -82,11 +82,15 @@ Install the Python dependencies (from the project root):
 \`\`\`bash  
 pip install sqlalchemy psycopg2-binary  
   
-\## 4. Running Instructions  
+\## 4. Running Instructions (For mac I ran into issues with
+                             python homebrew so I used anacondas) 
+                             (Explained in more detail in the video
+                             on how to run the file...)
+
   
-python3 -m app.init_db  
-python3 -m app.ddl_extras  
-python3 -m app.seed_data  
+python -m app.init_db  
+python -m app.ddl_extras  
+python -m app.seed_data  
   
 Any time you want to reset the database back to the default seeded
 state, just run init_db to drop and recreate all the tables, ddl_extras
@@ -94,3 +98,4 @@ to recreate my view and trigger, and then seed_data to populate the
 database with the initial sample records.  
   
 VIDEO LINK: https://youtu.be/W8Bn75ZclRw
+(P.S I really apologize for the long video. I tried to fit everything in as best I could while not sacrificing detail...the original video was 30-40 minutes long)
