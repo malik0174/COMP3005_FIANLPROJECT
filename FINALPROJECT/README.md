@@ -93,4 +93,4 @@ state, just run init_db to drop and recreate all the tables, ddl_extras
 to recreate my view and trigger, and then seed_data to populate the
 database with the initial sample records.  
   
-VIDEO LINK: https://youtu.be/mzzRkSCMrYI
+VIDEO LINK: https://youtu.be/W8Bn75ZclRw
